@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
-class participant extends Component{
+class Participants extends Component{
+    
     render () {
+
         return (
-            <div>Participant Page</div>
+            <div>
+                Participant Page <br />
+            </div>
         );
     }
 } 
 
-export default participant;
+export default Participants;
