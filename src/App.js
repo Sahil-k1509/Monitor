@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 import Auxiliary from './hoc/Auxiliary';
@@ -26,7 +25,7 @@ function App() {
           <Route component={Invalid} />
         </Switch>
       </BrowserRouter>
-      
+
     </Auxiliary>
   );
 }

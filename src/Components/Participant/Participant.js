@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const participant = () => (
-    <div>Participant Page</div>
-);
+class participant extends Component{
+    render () {
+        return (
+            <div>Participant Page</div>
+        );
+    }
+} 
 
 export default participant;

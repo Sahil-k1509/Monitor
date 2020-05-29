@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const subject = () => (
-    <div>Subject Page</div>
-);
-
+class subject extends Component{
+    render () {
+        return (
+        <div>Subject Page</div>
+        );
+    }
+ }
 export default subject;
