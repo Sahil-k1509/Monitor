@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Auxiliary from '../../hoc/Auxiliary';
 
 class subject extends Component{
     render () {
         return (
-        <div>Subject Page</div>
+        <Auxiliary>
+            Subject
+        </Auxiliary>
         );
     }
  }
