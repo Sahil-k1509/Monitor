@@ -18,13 +18,13 @@ function App() {
       </header>
 
 
-          <Switch>
-            <Route path="/" exact component={Home}/>
-            <Route path="/subject" exact component={Subject}/>
-            <Route path="/:subject_name/participant" component={Participant}/>
-            <Route component={Invalid} />
-          </Switch>
-        </BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home}/>
+        <Route path="/subject" exact component={Subject}/>
+        <Route path="/:subject_name/participant" component={Participant}/>
+        <Route component={Invalid} />
+      </Switch>
+      </BrowserRouter>
 
     </Auxiliary>
   );

@@ -6,6 +6,16 @@
     padding: 2rem;
     width: 40%;
     text-align: justify;
+    transition: all 0.5s ease;
+    background-color: rgba(22, 22, 22, 0.911);
+    color: white;
+}
+
+.subject:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 0 5px rgb(124, 218, 255), 
+                0 0 15px rgb(124, 218, 255), 
+                0 0 35px rgb(124, 218, 255) ;
 }
 
 .subject div strong:hover{
@@ -30,5 +40,6 @@
 }
 
 .subject a:hover{
-    background-color: rgb(114, 127, 128);
+    background-color: rgb(173, 188, 189);
+    color: black;
 }
