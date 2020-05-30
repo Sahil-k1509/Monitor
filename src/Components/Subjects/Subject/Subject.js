@@ -16,4 +16,4 @@ const subject = (props) => {
         );
 }
 
-export default subject
+export default subject;
