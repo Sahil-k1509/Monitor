@@ -20,7 +20,9 @@
     transform: translate(-50%, -50%);
     font-size: 5rem;
     padding: 1.5rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(173, 198, 230, 0.726));
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(227, 239, 255, 0.726));
 }
 .tag{
     position: absolute;
@@ -33,3 +35,38 @@
     text-align: center;
     transform: translateY(-50%);
 }
+
+
+.m{
+    animation: change 3s ease;
+}
+.o{
+    animation: change2 3s ease;
+}
+
+@keyframes change{
+    0%{color: lightgreen;}
+    10%{color: lightseagreen;}
+    20%{color: lightgreen;}
+    30%{color: lightseagreen;}
+    40%{color: lightgreen;}
+    50%{color: lightseagreen;}
+    60%{color: lightgreen;}
+    70%{color: lightseagreen;}
+    80%{color: lightgreen;}
+    100%{color: white;}
+}
+
+@keyframes change2{
+    0%{color: lightseagreen;}
+    10%{color: lightgreen;}
+    20%{color: lightseagreen;}
+    30%{color: lightgreen;}
+    40%{color: lightseagreen;}
+    50%{color: lightgreen;}
+    60%{color: lightseagreen;}
+    70%{color: lightgreen;}
+    80%{color: lightseagreen;}
+    100%{color: white;}
+}
+

@@ -14,13 +14,13 @@
 
 @keyframes wiggle{
     0%{
-        transform: rotateZ(-2deg);
+        transform: rotateZ(-1deg);
     }
     50%{
-        transform: rotateZ(2deg);
+        transform: rotateZ(1deg);
     }
     100%{
-        transform: rotateZ(-2deg);
+        transform: rotateZ(-1deg);
     }
 }
 

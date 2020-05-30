@@ -21,9 +21,9 @@ class Subjects extends Component{
         });
 
         return (
-        <Auxiliary>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                 {assigned_subjects}
-        </Auxiliary>
+        </div>
         );
     }
  }
