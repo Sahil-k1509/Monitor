@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Subject.module.css';
+import {Link} from 'react-router-dom';
 
 const subject = (props) => {
     const link = props.SubjectName+"/participant";
@@ -10,7 +11,7 @@ const subject = (props) => {
                 <div><strong>Subject Code:</strong> {props.Code}  </div>
                 <div><strong>Credits:</strong> {props.Credit} </div>
                 <div><strong>Semester:</strong> {props.Semester}</div>
-                <div><a href={link}>Visit Students</a> </div>
+                <div><Link to={{pathname:link, search: '?subject='+props.SubjectName}}>Visit Students</Link> </div>
             </div>
         );
 }

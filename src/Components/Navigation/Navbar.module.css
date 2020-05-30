@@ -13,13 +13,12 @@
     margin: 1rem;
 }
 
-.navbar ul li a{
+.navbar a{
     text-decoration: none;
     color: rgb(199, 199, 199);
 }
 
-.navbar ul li a:hover{
-    text-decoration: none;
+.navbar a:hover{
     color: rgb(255, 255, 255);
 }
 

@@ -8,7 +8,7 @@ class Subjects extends Component{
             'PDS': ["CS10001" ,"3", "1"],
             'Algorithms-1': ["CS20001" ,"4", "3"],
             'Discrete Structures': ["CS21011" ,"3", "3"],
-            'Compilers': ["CS31001" ,"2", "5"],
+            'Algorithms-2': ["CS32001" ,"3", "5"],
             'Operating System': ["CS60030" ,"3", "6"],
             'Game Theory': ["CS60069" ,"2", "6"],
         }
