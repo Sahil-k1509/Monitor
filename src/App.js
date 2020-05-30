@@ -13,9 +13,8 @@ function App() {
   return (
     <Auxiliary>
       <BrowserRouter>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
+      
 
 
       <Switch>

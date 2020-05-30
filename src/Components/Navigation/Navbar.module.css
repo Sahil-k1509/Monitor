@@ -1,10 +1,14 @@
 .navbar{
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 .navbar ul{
     list-style: none;
     display: flex;
+    transform: translateY(-30%);
     background-color: rgb(0, 26, 26);
 }
 
