@@ -22,9 +22,7 @@ class Subjects extends Component{
 
         return (
         <Auxiliary>
-            <div>
                 {assigned_subjects}
-            </div>
         </Auxiliary>
         );
     }

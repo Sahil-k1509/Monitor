@@ -12,20 +12,19 @@ import Invalid from './Components/Invalid/Invalid';
 function App() {
   return (
     <Auxiliary>
-
       <header>
         <Navbar />
       </header>
 
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/subject" exact component={Subject}/>
-          <Route path="/participant" exact component={Participant}/>
-          <Route path="/:subject_name/participant" component={Participant}/>
-          <Route component={Invalid} />
-        </Switch>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/subject" exact component={Subject}/>
+            <Route path="/participant" exact component={Participant}/>
+            <Route path="/:subject_name/participant" component={Participant}/>
+            <Route component={Invalid} />
+          </Switch>
+        </BrowserRouter>
 
     </Auxiliary>
   );
