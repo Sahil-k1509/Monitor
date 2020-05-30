@@ -9,13 +9,53 @@
     transition: all 0.5s ease;
     background-color: rgba(22, 22, 22, 0.911);
     color: white;
+    animation: wiggle 1s ease infinite;
 }
+
+@keyframes wiggle{
+    0%{
+        transform: rotateZ(-2deg);
+    }
+    50%{
+        transform: rotateZ(2deg);
+    }
+    100%{
+        transform: rotateZ(-2deg);
+    }
+}
+
 
 .subject:hover{
     transform: translateY(-8px);
+    animation: backchanger 1s ease infinite;
+}
+
+@keyframes backchanger{
+    0%{
     box-shadow: 0 0 5px rgb(124, 218, 255), 
-                0 0 15px rgb(124, 218, 255), 
-                0 0 35px rgb(124, 218, 255) ;
+    0 0 15px rgb(124, 218, 255), 
+    0 0 35px rgb(124, 218, 255) ;
+    }
+    25%{
+        box-shadow: 0 0 5px rgb(124, 255, 168), 
+        0 0 15px rgb(124, 255, 168), 
+        0 0 35px rgb(124, 255, 168) ;
+    }
+    50%{
+        box-shadow: 0 0 5px rgb(242, 255, 124), 
+        0 0 15px rgb(242, 255, 124), 
+        0 0 35px rgb(242, 255, 124) ;
+    }
+    75%{
+        box-shadow: 0 0 5px rgb(255, 133, 124), 
+        0 0 15px rgb(255, 133, 124), 
+        0 0 35px rgb(255, 133, 124) ;
+    }
+    100%{
+        box-shadow: 0 0 5px rgb(148, 124, 255), 
+        0 0 15px rgb(148, 124, 255), 
+        0 0 35px rgb(148, 124, 255) ;
+    }
 }
 
 .subject div strong:hover{

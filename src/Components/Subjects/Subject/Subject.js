@@ -6,7 +6,7 @@ const subject = (props) => {
     const link = props.SubjectName+"/participant";
 
     return (
-            <div className={styles.subject}>
+            <div className={[styles.subject, styles.animated, styles.wiggle].join(' ')}>
                 <div><strong>Subject:</strong> {props.SubjectName}</div>   
                 <div><strong>Subject Code:</strong> {props.Code}  </div>
                 <div><strong>Credits:</strong> {props.Credit} </div>
