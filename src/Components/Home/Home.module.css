@@ -20,7 +20,7 @@
     transform: translate(-50%, -50%);
     font-size: 5rem;
     padding: 1.5rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(173, 198, 230, 0.726));
+    background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(173, 198, 230, 0.726));
 }
 .tag{
     position: absolute;

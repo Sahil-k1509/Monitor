@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Participant from './Participant/Participant';
-
+import styles from './Participants.module.css';
 
 class Participants extends Component{
     
@@ -66,6 +66,7 @@ class Participants extends Component{
     deleteHandler = (name, students, subject) => {
         delete students[subject][name];
         this.setState({students});
+        alert(`${name} has been succesfully deregistered from ${subject}.`)
     }
 
     render () {
@@ -79,10 +80,10 @@ class Participants extends Component{
         });
         }
         return (
-            <div>
-                {subject} <br /><br/>
+            <div style={{'margin': '6rem 0', justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
+                <div style={{color: 'white', textAlign: 'center', fontSize: '2rem', fontWeight: '500', textTransform: 'uppercase', backgroundColor: 'rgba(0,0,0, 0.2)', padding: '1rem'}}>Students Enrolled for {subject} </div><br/><br/>
                 {assigned}
-                <button onClick={() => {alert("All students have been registered.")}}>Add all participants</button>
+                <button className={styles.AddBtn} onClick={() => {alert("All students have been added to the platform.")}}>Add all participants</button>
             </div>
         );
     }

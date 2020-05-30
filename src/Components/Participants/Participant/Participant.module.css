@@ -1,6 +1,37 @@
+body{
+     background: url('../../../Assets/books.jpg');
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+}
+
 .student{
-    border: 1px solid black;
-    width: 50%;
+    color: white;
+    background-color: rgba(17, 17, 17, 0.925);
+    width: 40%;
     margin: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+.student button{
+    background-color: rgb(114, 0, 0);
+    outline: none;
+    color: white;
+    border: 1px solid black;
+    padding: 0.3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.student button:hover{
+    background-color: red;
+}
+
+.student:hover{
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 1.5rem;
+    text-shadow: 0 0 5px lightcyan, 0 0 15px lightcyan, 0 0 10px lightcyan, 0 0 20px lightcyan;
 }

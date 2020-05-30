@@ -1,0 +1,14 @@
+.AddBtn{
+    outline: none;
+    background-color: rgb(63, 218, 63);
+    border: 1.5px solid black;
+    padding: 0.5rem;
+    transition: all 0.6s ease;
+}
+
+.AddBtn:hover{
+    background-color: teal;
+    color: white;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
