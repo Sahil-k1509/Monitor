@@ -70,3 +70,8 @@
     100%{color: white;}
 }
 
+
+@media (max-width: 480px){
+    .title{font-size: 3rem;}
+    .tag{font-size: 1rem;}
+}

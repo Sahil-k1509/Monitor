@@ -11,7 +11,7 @@ const subject = (props) => {
                 <div><strong>Subject Code:</strong> {props.Code}  </div>
                 <div><strong>Credits:</strong> {props.Credit} </div>
                 <div><strong>Semester:</strong> {props.Semester}</div>
-                <div><Link to={{pathname:link, search: '?subject='+props.SubjectName}}>Visit Students</Link> </div>
+                <div className={styles.studentlink}><Link to={{pathname:link, search: '?subject='+props.SubjectName}}>Visit Students</Link> </div>
             </div>
         );
 }

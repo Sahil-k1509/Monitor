@@ -67,11 +67,14 @@
     margin: 5px;
 }
 
-.subject a{
+.studentlink{
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.studentlink a{
     text-decoration: none;
     border: 1px solid black;
     color: rgb(255, 255, 255);
@@ -82,4 +85,12 @@
 .subject a:hover{
     background-color: rgb(173, 188, 189);
     color: black;
+}
+
+
+@media (max-width: 700px){
+    .studentlink{
+        position: initial;
+        transform: translateY(50%);
+    }   
 }
