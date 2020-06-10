@@ -3,7 +3,7 @@ import styles from './Subject.module.css';
 import {Link} from 'react-router-dom';
 
 const subject = (props) => {
-    const link = props.SubjectName+"/participant";
+    const link = "/Monitor/"+props.SubjectName+"/participant";
 
     return (
             <div className={[styles.subject, styles.animated, styles.wiggle].join(' ')}>
